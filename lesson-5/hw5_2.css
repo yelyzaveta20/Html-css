@@ -1,0 +1,16 @@
+.textbox1>ol>li:nth-child(2n){
+    color: #e05166;
+}
+.textbox2>ol>li:nth-child(2n-1){
+    font-size: 22px;
+}
+.textbox3>ol>li:nth-child(2n+4):after{
+    content: "!";
+}
+.textbox4>ol>li:last-child{
+    color: purple;
+}
+.textbox5>ol>li:first-letter{
+    font-size: 30px;
+    color: red;
+}

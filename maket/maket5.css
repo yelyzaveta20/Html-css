@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+header{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+}
+section{
+    height: 60vh;
+    width: 70vw;
+    flex-direction: column;
+
+}
+.second{
+    height: 20vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    height: 60vh;
+    width: 30vw;
+    flex-direction: column;
+    display: flex;
+}
+.article{
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

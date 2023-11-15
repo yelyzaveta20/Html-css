@@ -1,0 +1,21 @@
+#div1{
+    background-color: coral;
+}
+#div2{
+  background-color: aqua;
+}
+#div3{
+    background-color: darkseagreen;
+
+}
+div{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+html{
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,17 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 45px;
+    margin-left: 45px;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+div:hover{
+    background-color: purple;
+    border-radius: 50%;
+    transition: 0.5s;
+}

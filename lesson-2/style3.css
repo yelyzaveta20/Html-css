@@ -1,0 +1,35 @@
+.contact, .widgest{
+    background-color: #5454e8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.big{
+
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 25vh;
+}
+div{
+    color: #ffffff;
+    font-size: xx-large;
+
+}
+.widgest{
+    width: 100%;
+    height: 35vh;
+}
+.contact{
+    width: 100%;
+    height: 40vh;
+}
+.bigW, .biggerW, .hugeW{
+    background-color: darkblue;
+    width: 30%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

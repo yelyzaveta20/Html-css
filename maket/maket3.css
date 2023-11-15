@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+header{
+    height: 20vh;
+    background: #927D7D;
+}
+main{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+}
+.divleft, .divright{
+    height: 60vh;
+    width: 20vw;
+}
+section{
+    height: 60vh;
+    width: 60vw;
+    flex-direction: column;
+}
+.divup,.divdown{
+    height: 10vh;
+    width: 60vw;
+}
+article{
+    height: 40vh;
+    width: 60vw;
+    display: flex;
+}
+.one, .three{
+    height: 40vh;
+    width: 10vw;
+}
+.two{
+    height: 40vh;
+    width: 40vw;
+}
+footer{
+    height: 20vh;
+    background: #BDBDBD;
+}

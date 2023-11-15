@@ -1,0 +1,61 @@
+label{
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.facebook{
+    width: 10%;
+}
+button{
+    background-color: #5093c0;
+    color: white;
+    font-size: 20px;
+    width: 270px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+input{
+    width: 270px;
+    height: 25px;
+    margin-top: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+main{
+    border: 1px black solid;
+    padding: 40px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    border: 1px black solid;
+    padding: 27px;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inst{
+    width: 80%;
+}
+#fotoface{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

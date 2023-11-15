@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="maketinput3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital@1&family=Prata&family=Russo+One&family=Unbounded&display=swap" rel="stylesheet">
+</head>
+<body>
+<form>
+    <h2>Заповніть поля анкети</h2>
+    <div class="namelf">
+        <label for="firstname">Ваше ім'я
+        <input type="text" id="firstname" name="firstname"></label>
+        <label for="lastname">Ваше Прізвище
+        <input type="text" id="lastname" name="lastname"></label>
+    </div>
+    <div class="radio">
+        <label>Ваша стать:</label>
+        <label style="font-family:'Unbounded', sans-serif;">
+            <input type="radio"  name="gender"> Жінка</label>
+        <label style="font-family:'Unbounded', sans-serif;">
+            <input type="radio"  name="gender">Чоловік</label>
+    </div>
+
+        <label style="margin: 10px 0 0 20px">Послугами якої сотової компанії ви користуєтесь:</label>
+    <div class="checkbox">
+            <label >
+            <input type="checkbox"  name="kyivstar"> KiyvStar</label>
+            <label>
+                <input type="checkbox"  name="mts"> MTS</label>
+            <label>
+                <input type="checkbox"  name="life"> Life:)</label>
+            <label>
+                <input type="checkbox" name="peoplenet"> PeopleNet</label>
+            <label>
+                <input type="checkbox"  name="utel">Utel</label>
+    </div>
+    <div class="subres">
+        <input type="submit" value="Надіслати анкету">
+        <input type="reset" value="Очистити бланк">
+    </div>
+</form>
+</body>
+</html>

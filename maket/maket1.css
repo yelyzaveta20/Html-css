@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+header{
+    background: #D9D9D9;
+    height: 20vh;
+    width: 100vw;
+}
+main{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+
+}
+.first{
+    background: #CCC;
+    width: 100vw;
+}
+.second{
+    background: #848383;
+    width: 100vw;
+}
+.end{
+    background: #656565;
+    width: 100vw;
+}
+footer{
+    background: #ACABAB;
+    height: 20vh;
+    width: 100vw;
+}

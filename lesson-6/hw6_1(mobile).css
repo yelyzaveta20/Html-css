@@ -1,0 +1,29 @@
+@media screen and (max-width: 480px) {
+
+    header, footer{
+        width: 100vw;
+        height: 20vh;
+
+    }
+    .updiv{
+        height: 40vh;
+        width: 100vw;
+    }
+    .blockdiv{
+        height: 20vh;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 80vh;
+    }
+    .article{
+        width: 100vw;
+        height: 60vh;
+    }
+   #article{
+       width: 100vw;
+       height: 20vh;
+   }
+}

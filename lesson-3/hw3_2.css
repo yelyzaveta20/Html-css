@@ -1,0 +1,22 @@
+.footer{
+background-color: cadetblue;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heder{
+    background-color: #411f1f;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+body{
+    margin: 0;
+}

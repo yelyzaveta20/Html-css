@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+header{
+    height: 20vh;
+}
+main{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+}
+section{
+    width: 100vw;
+    height: 60vh;
+    flex-direction: column;
+}
+.div11,.div12,.div13{
+    width: 100%;
+    height: 20vh;
+}
+
+.div21, .div22{
+    width: 100vw;
+    height: 60vh;
+}
+footer{
+    height: 20vh;
+}

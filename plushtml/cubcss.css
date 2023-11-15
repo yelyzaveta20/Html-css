@@ -1,0 +1,27 @@
+.miniblock{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    box-shadow: 25px 14px 31px -7px rgba(0,0,0,0.75);
+    flex-direction: column;
+}
+
+.block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.names{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.miniblockwhite{
+    color: white;
+}

@@ -1,0 +1,26 @@
+.black{
+    color: black;
+}
+.red{
+    color: red;
+
+}
+.suit{
+    background-color: rgba(178, 174, 171, 0.66);
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    margin:20px 20px;
+    font-size: 80px;
+}
+.div1, .div2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.name{
+    font-size: 40px;
+}

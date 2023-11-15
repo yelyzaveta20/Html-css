@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+header{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 60vw;
+    height: 60vh;
+    flex-direction: column;
+}
+.newssponsor{
+    width: 20vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Content{
+    width: 60vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,20 @@
+@media screen and (max-width: 480px) {
+    header{
+        height: 30vh;
+        width: 100vw;
+    }
+    .sel{
+        width: 100vw;
+        height: 50vh;
+    }
+    .sel2{
+        width: 100vw;
+        height: 20vh;
+    }
+    footer{
+        width: 100vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
